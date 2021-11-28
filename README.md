@@ -13,8 +13,6 @@ v.sort(v.begin(), v.end());
 v.size();
 v.empty();
 v.clear();
-
-
 //creates a vector of size x of which each element is y
 vector<int> v(x, y);
 
@@ -38,7 +36,12 @@ l.empty();
 ## Stack
 
 ## Queue
-
+```
+#include <queue>
+//can be built on deque or list
+queue<int> q;//uses deque by default
+queue<int, list<int>> q2;//built on list
+```
 ## Dequeue
 ```
 #include <deque>
@@ -59,7 +62,13 @@ q.clear();
 ```
 
 ## Priority Queue
+```
+#include <queue>
+//can be built on vector or deque
+priority_queue<int> pq; //uses a vector by default
+priority_queue<int, deque<int>> q; //built on deque
 
+```
 ## Unordered Set
 
 ## Set
