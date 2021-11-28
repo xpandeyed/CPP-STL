@@ -2,6 +2,7 @@
 Cheat sheet for C++ STL
 
 
+##Vector
 ```
 vector<int> v;
 int n=10;
@@ -11,3 +12,21 @@ v.push_back(n);
 vector<int> v(x, y);
 
 ```
+##List
+
+##Stack
+
+##Queue
+
+##Dequeue
+
+##Priority Queue
+
+##Unordered Set
+
+##Set
+
+##Unordered Map
+
+##Map
+
