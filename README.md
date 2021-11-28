@@ -2,4 +2,6 @@
 Cheat sheet for C++ STL
 
 
-'''code'''
+'''
+code
+'''
