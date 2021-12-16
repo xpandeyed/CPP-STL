@@ -13,14 +13,14 @@ v.sort(v.begin(), v.end());
 v.size();
 v.empty();
 v.clear();
-auto it1 = v.begin();
-auto it2 = v.end();
-auto it3 = v.rbegin();
-auto it4 = v.rend();
-auto it5 = v.cbegin();
-auto it6 = v.cend();
-auto it7 = v.crbegin();
-auto it8 = v.crend();
+vector<int>::iterator it1 = v.begin();
+vector<int>::iterator it2 = v.end();
+vector<int>::iterator it3 = v.rbegin();
+vector<int>::iterator it4 = v.rend();
+vector<int>::iterator it5 = v.cbegin();
+vector<int>::iterator it6 = v.cend();
+vector<int>::iterator it7 = v.crbegin();
+vector<int>::iterator it8 = v.crend();
 vector<int> v(x, y); //creates a vector of size x of which each element is y
 
 ```
