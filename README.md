@@ -33,6 +33,10 @@ l.empty();
 
 ```
 
+## Forward List
+Introduced in C++11
+Keeps track of next element only, like singly linked list
+
 ## Stack
 
 ## Queue
