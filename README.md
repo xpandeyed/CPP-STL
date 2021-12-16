@@ -13,8 +13,15 @@ v.sort(v.begin(), v.end());
 v.size();
 v.empty();
 v.clear();
-//creates a vector of size x of which each element is y
-vector<int> v(x, y);
+auto it1 = v.begin();
+auto it2 = v.end();
+auto it3 = v.rbegin();
+auto it4 = v.rend();
+auto it5 = v.cbegin();
+auto it6 = v.cend();
+auto it7 = v.crbegin();
+auto it8 = v.crend();
+vector<int> v(x, y); //creates a vector of size x of which each element is y
 
 ```
 ## List
