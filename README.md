@@ -21,7 +21,11 @@ vector<int>::iterator it5 = v.cbegin();
 vector<int>::iterator it6 = v.cend();
 vector<int>::iterator it7 = v.crbegin();
 vector<int>::iterator it8 = v.crend();
-vector<int> v(x, y); //creates a vector of size x of which each element is y
+vector<int> v1(x, y); //creates a vector of size x of which each element is y
+vector<int> v2 = {1, 2, 3};
+vector<int> v3 = {10, 20, 30};
+v3.insert(v3.begin(), v2.begin(), v2.end()); //v3 is now {1, 2, 3, 10, 20, 30};
+vector<int> v4(v3.begin() , v3.begin()+3); // v4 is now {1, 2, 3}
 
 ```
 ## List
