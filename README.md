@@ -1,6 +1,15 @@
 # CPP-STL
 Cheat sheet for C++ STL
 
+## Pair
+```
+pair<int, int> p1, p2, p3, p4(1, 2), p5(p4);
+p1.first = 10;
+p1.second = 20;
+p2 = make_pair(30, 40);
+p3 = {50, 60};
+//
+```
 
 ## Vector
 ```
@@ -26,7 +35,6 @@ vector<int> v2 = {1, 2, 3};
 vector<int> v3 = {10, 20, 30};
 v3.insert(v3.begin(), v2.begin(), v2.end()); //v3 is now {1, 2, 3, 10, 20, 30};
 vector<int> v4(v3.begin() , v3.begin()+3); // v4 is now {1, 2, 3}
-
 ```
 ## List
 ```
