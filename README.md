@@ -57,6 +57,7 @@ Introduced in C++11
 Keeps track of next element only, like singly linked list
 
 ## Stack
+stack<int> s;
 
 ## Queue
 ```
