@@ -91,8 +91,9 @@ q.clear();
 ```
 #include <queue>
 //can be built on vector or deque
-priority_queue<int> pq; //uses a vector by default
+priority_queue<int> pq; //uses a vector by default //max heap by default
 priority_queue<int, deque<int>> q; //built on deque
+priority_queue<int, vector<int>, greater<int>> q;
 
 ```
 ## Unordered Set
