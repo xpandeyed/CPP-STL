@@ -1,8 +1,11 @@
 # CPP-STL
 Cheat sheet for C++ STL
 
-## Useful functions
+## Useful functions/shortcuts
 The lower_bound() function finds iterator of first element that does not compare less to given element. The upper_bound() function returns iterator to the first element that is greater.
+
+using p = pair<int, int>;
+vector<p> v;
 
 ## Pair
 ```
