@@ -1,1 +1,1 @@
-
+- Fast Power: base raised to power n. Complexity O(logn)
